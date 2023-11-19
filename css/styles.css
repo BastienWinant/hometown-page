@@ -91,6 +91,12 @@ main {
 	display: flex;
 	box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
+	position: relative;
+}
+
+.card:hover {
+	top: -5px;
+	box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
 }
 
 .card-img {
